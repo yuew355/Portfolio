@@ -1,0 +1,413 @@
+/*.circle{
+    height: 630px;
+    width: 630px;
+    background-color: #fbe14c;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.po{
+    font-size: 130px;
+    font-family: 'Monoton', cursive;
+    margin-left: 55%;
+    margin-top: -20%;
+    /*line-height: 110px;*/
+/*}
+
+.rtfo{
+    font-size: 130px;
+    font-family: 'Monoton', cursive;
+    margin-left: 55%;
+    margin-top: -5%;
+    /*line-height: 110px;*/
+/*}
+
+.lio{
+    font-size: 130px;
+    font-family: 'Monoton', cursive;
+    margin-left: 55%;
+    margin-top: -5.5%;
+    float:left;
+    /*line-height: 110px;*/
+/*}
+
+.line-rotate{
+    transform: rotate(-50deg);
+    width: 55%;
+    border-style: solid;
+    border-color: #000000;
+    float: right;
+    border-width: 3px;
+    margin-right: 28%;
+    margin-top: -7%;
+}
+
+.line{
+    border-style: solid;
+    border-color: #000000;
+    width: 25%;
+    float: right;
+    border-width: 2px;
+    margin-left: 90%;
+    margin-top: -10.4%;
+}
+
+.name{
+   font-family: 'Fira Sans', sans-serif;
+   font-size: 70px;
+   margin-left: 30%;
+   margin-top: -27%;
+}
+
+.personalwork{
+    font-family: 'Jura', sans-serif;
+    font-size: 40px;
+    margin-left: 34%;
+}
+
+.time{
+    font-family: 'Jura', sans-serif;
+    font-size: 40px;
+    margin-left: 39%;
+}
+
+/* 下拉按钮样式 */
+.dropbtn {
+   /* background-color: #4CAF50;*/
+    /*color: white;*/
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: -400px;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+/*.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}*/
+
+.container-sp{
+        /*margin-top: 520px;
+*/      height: auto;
+        width: 100%;
+        z-index: 1;
+}
+
+.intro-text{
+
+        float: right;
+        margin-left: 43%;
+        position: absolute;
+        margin-top: -300px;
+        z-index: 1;
+        /*padding-left: 10px;*/
+}
+
+.landingbtn{
+    border-radius: 50px;
+    border-width: 1px;
+    background-color: transparent;
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;
+    background-color: rgba(229,229,229,0.8);
+    padding: 10px;
+}
+
+/*.footer{
+        height: 100px;
+        width: auto;
+        background-color: #D3E5E3;
+        align-content: center;
+        /*display: inline-block;*/
+
+
+.icon{
+        /*width: 50px;*/
+       /* height: 50px;*/
+        display: inline;
+        margin-top: 10px;
+}
+
+.pro-dropbtn {
+   /* background-color: #4CAF50;*/
+    /*color: white;*/
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 420px;
+}
+
+.pro-title{
+   font-family: 'Jura', sans-serif;
+   font-size: 30px;
+   margin-left: 160px;
+   float: right;
+        position: absolute;
+        margin-top: -300px;
+        z-index: 1;
+}
+
+.nav{
+    position: fixed;
+    z-index: 10;
+    margin-left: 115px;
+    margin-top: 255px;
+}
+
+.circle{
+    height: 10px;
+    width: 10px;
+    border-color: #fbe14c;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+
+.portfolio {
+  background: #fff;
+  background: -moz-linear-gradient(top, #fff 0%);
+  background: -webkit-linear-gradient(top, #fff 0%);
+  background: linear-gradient(to bottom, #fff 0%);
+  padding: 70px 10px;
+}
+.portfolio h2 {
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.portfolio .projects {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+.portfolio .projects .project {
+  position: relative;
+  display: block;
+  float: left;
+  width: 30%;
+  margin-left: 1.6666%;
+  margin-right: 1.6666%;
+  margin-bottom: 3%;
+}
+.portfolio .projects .project img {
+  width: 100%;
+}
+.portfolio .projects .project:hover .project-overlay {
+  opacity: 1;
+}
+.portfolio .projects .project:hover .project-details {
+  opacity: 1;
+  top: 50%;
+}
+.portfolio .projects .project .project-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 98%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio .projects .project .project-details {
+  line-height: normal;
+  opacity: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  position: absolute;
+  text-align: center;
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+}
+.portfolio .projects .project .project-details p {
+  color: #fff;
+}
+
+.project-description{
+  padding-right: 2em;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+
+.aboutme-content{
+    display: inline-block;
+}
+
+
+
+div {
+        border: 1px deepskyblue;
+        height: auto;
+}
+
+
+
+header{
+  width: 100%;
+}
+
+header h1{
+  margin: 0;
+  padding-left: 10vw;
+}
+
+.webtitle{
+  font-weight: 500;
+  font-size: 46px;
+  text-transform: uppercase;
+  float: left;
+}
+
+.spacer{
+  height: 30px;
+}
+
+.paraspacer{
+  height: 5px;
+}
+
+/* HAMBURGER ICON STYLING */
+
+.hamburger-container{
+  float: left;
+  z-index: 20; /*give this a z index so that it remains on top and will be clickable above the overlay  */
+  position: fixed;
+  padding-left: 110px;
+}
+
+#top_bun, #meat, #bottom_bun{
+  width: 35px;
+  height: 5px;
+  background-color: #fbe14c;
+  margin:6px 0;
+  position: relative;
+  margin-right: 0vw;
+}
+
+.hamburger-container div{
+  transition: 0.4s;
+}
+
+/* OVERLAY STYLING */
+#overlay{
+  height:100vh;
+  width: 0vw;
+  position:fixed; /* fixed position so if the page is scrollable, this still remains in the same position */
+  z-index: 10; /* z index so its above the main webpage, yet under the hamburger icon */
+  top: 0;
+  left: 0;
+  font-family: 'Jura', sans-serif;
+
+  overflow-y: hidden; /*need tis to to prevent seeing the text when the overlay height is 0.*/
+  transition: 0.4s;
+  background-color: white;
+  opacity: 0.8;
+}
+
+
+#overlay nav{
+  margin-top: 33vh;
+  
+}
+
+
+#overlay li{
+  list-style-type: none;
+  display: block;
+  opacity: 100%;
+  text-align: center;
+}
+
+#overlay li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#comfort{
+text-align: justify;
+}
+
+
+p{
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.subtitle{
+  font-family: 'Jura', sans-serif;
+  font-size: 30px;
+}
+
+.line{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c3c3c3;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.video{
+  text-align: center;
+}
