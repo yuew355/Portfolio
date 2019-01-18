@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Breakie | Interaction Design</title>
+    <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Jura:600" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ 
+
+  </head>
+  <body>
+
+    <header>
+      <div class="spacer"></div>
+      <div class="hamburger-container" onclick="toggleHamMenu()">
+        <div id="top_bun" class="ham-layer"></div>
+        <div id="meat" class="ham-layer"></div>
+        <div id="bottom_bun" class="ham-layer"></div>
+      </div>
+       <div class="pro-title" style="margin-top: 0.3vh;">Breakie</div>
+
+    <img style="width: 100%; height: 100%; margin-top: -40px;" src="img/breakie/landing.jpg">
+
+     
+    </header>
+
+    <div class="spacer"></div>
+
+    <div id="overlay">
+      <nav>
+        <ul>
+        <!-- hashtag is an internal link. without an element to point to, it just serves as a placeholder -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href ="works.html">Work</a></li>
+          <li><a href ="aboutme.html">About Me</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+
+
+    
+    <div style="margin-left: 15vw; margin-right: 15vw;">
+    	<div class="spacer"></div>
+    <!-- <div class="video"> 
+      <iframe src="https://player.vimeo.com/video/309656381" width="1054" height="594" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    <div class="spacer"></div>
+    <div class="spacer"></div> -->
+    <div class="subtitle">Overview</div>
+    <p id="comfort">For this project, I designed an application for people working at the desk for long hours every day. Many people may feel cervical pain after constantly working for a long time and this application encourage them to move their muscles using a game to ease the negative effects. </p>
+
+    <div class="spacer"></div>
+    <!-- <div class="line"></div> -->
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <div class="subtitle">Research</div>
+    <div>
+    <div style="display: inline-block; width: 55%; padding-right: 1em;">
+    <p id="comfort">It is known that cervical spondylosis is a normal part of aging. However, a research shows that there is a trend of more and more young people suffering from this kind of disease. It can be illustrated from the chart that the average age of people with cervical spondylosis decrease from 55 in 1980s to 39 in 2010. </p>
+    <p id="comfort">There is a survey conducted by Kenneth Hansraj that the more time and larger angle people lower their head, the more pressure they will put on their spine. With the development of the technology, people tend to keep a fixed posture while working, surfing the Internet or playing games for a long time, which becomes the main cause of cervical spondylosis. </p>
+    </div>
+    <div style="display: inline-block; width: 41%; padding-left: 1em;">
+        <img style="width: 80%; height: 80%;" src="img/breakie/graph.jpg">
+    </div>
+    </div>
+
+    <div class="spacer"></div>
+    <!-- <div class="line"></div> -->
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <div class="subtitle">Questionnaire & Interview</div>
+    <div class="spacer"></div>
+    <img style="width: 100%; height: 100%; " src="img/breakie/questionnaire.jpg">
+    <p id="comfort">With 197 people filling the questionnaire, the result showed that among all of those people who worked over 3 hours without rest, over 50% of them would feel uncomfortable on their neck or joints in their shoulders. However, only 10% of them chose to do sports or exercises. </p>
+    <p id="comfort">In addition, even though over 85% of people believed that they would learn and keep doing exercises to keep healthy on their necks and shoulders, 4 of the 6 people being interviewed admitted that although they knew the benefit of doing sports and not working on the computer for long hours, it is still hard for them to remind themselves of taking a rest or doing sports in the internals of work. They needed external force to push them to keep a healthy habit. </p>
+
+    <!-- <img style="width: 70%; height: 70%; margin-left: 10vw;" src="img/breakie/interview.jpg"> -->
+
+    <div class="spacer"></div>
+    <!-- <div class="line"></div> -->
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <div class="subtitle">Idea & Flow Chart</div>
+    <p id="comfort">I made a electronic pet called Breakie that would stay at the bottom of people’s screen and remind people of taking a rest from time to time. It would detect user’s mouse and keyboard to determine whether users are working on computer at present and how long they have been working. It has different modes, with different motions, and would change according to user’s situation. When users are working for too long without rest, it will change its motion and automatically cover the screen with mist. </p>
+    <p id="comfort">The mist will dissapear as time goes on. However, if users do exercises on their neck and shoulders, their movements will be detected by the camera of the computer, and the mist will be wiped away in the track of their movements. There will also be items behind the mist. Users need to shake or rotate heads to wipe away mist and catch the hidden item to decorate their electronic pets and get more motions. </p>
+    <div class="spacer"></div>
+    <img style="width: 100%; height: 100%;" src="img/breakie/flowchart.jpg">
+
+    <div class="spacer"></div>
+    <!-- <div class="line"></div> -->
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <div class="subtitle">Wireframe</div>
+    <div class="spacer"></div>
+    <img style="width: 70%; height: 70%; margin-left: 10vw;" src="img/breakie/wireframe.jpg">
+    <div class="spacer"></div>
+
+    <div class="spacer"></div>
+    <!-- <div class="line"></div> -->
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <div class="subtitle">Interface & Function</div>
+    <div class="spacer"></div>
+    <div>
+    <div style="display: inline-block; width: 42%; ">
+        <img style="width: 80%; height: 80%;" src="img/breakie/rest-mode.gif">
+    </div>
+    <div style="display: inline-block; width: 42%; ">
+        <img style="width: 80%; height: 80%;" src="img/breakie/busy-mode.gif">
+    </div>
+    <div style="display: inline-block; width: 15%;">
+    <p id="comfort" >Different motions in rest mode and busy mode based on how long users have been using their computers. </p>
+    </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <img style="width: 100%; height: 100%;" src="img/breakie/interface.jpg">
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <div>
+    <div style="display: inline-block; width: 30%; padding-right: 2em;">
+        <img style="width: 100%; height: 100%;" src="img/breakie/1.gif">
+    </div>
+    <div style="display: inline-block; width: 30%; padding-right: 2em;">
+        <img style="width: 100%; height: 100%;" src="img/breakie/2.gif">
+    </div>
+    <div style="display: inline-block; width: 30%; padding-left: 2em;">
+        <img style="width: 100%; height: 100%;" src="img/breakie/3.gif">
+    </div>
+    </div>
+
+</div>
+
+
+  <script src="js/script.js"></script>
+  </body>
+
+</html>
